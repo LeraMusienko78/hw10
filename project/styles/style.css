@@ -1,3 +1,5 @@
+@import "./variables.css";
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gothic+A1:wght@300&family=Poppins:wght@700&display=swap');
 * {
     padding : 0;
     margin : 0;
@@ -11,5 +13,42 @@ a {
 
 li {
     list-style-type : none ;
+}
+
+.header{
+   display: flex;
+   justify-content: space-between;
+   background: var(--primary-bg);
+   padding: var( --padding-size-m );
+   border-bottom: 1px solid #784DC7;
+  
+}
+
+.logo{
+    width: 73px;
+    height: 27px;
+    margin-top: var( --margin-size-s);
+}
+
+.nav{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--text-font-family);
+    font-size: var(--font-size-size-s);
+    padding: var(--padding-size-s);
+    margin-top: var(--margin-size-s);
+}
+
+.button{
+    background: #E9DFFC;
+    color:#784DC7;
+    border:1px solid #E9DFFC;
+    padding: .7rem 2rem;
+    border-radius: .3rem;
+    font-family: var( --text-font-family);
+    font-size: var( --font-size-size-s);
+    margin-top: var(--margin-size-s);
+
 }
     
