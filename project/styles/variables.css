@@ -1,13 +1,50 @@
 :root {
+
+    /* *Color-text */
+
     --primary-color : ;
+    --secondary-color: ;
+    --additional-color: ;
+    --spare-color: ;
 
-    --primary-bg : ;
+   /* * Background*/
 
-    --font-family-size : ;
+    --primary-bg : #F4EFFD ;
+    --secondary-bg: ;
+    --additional-bg: ;
+    --spare-bg: ;
 
-    --font-size-size : ;
+    /* *font-family-size */
 
-    --margin-size : ;
-    --padding-size : ;
+    --title-font-family: 'Anton', sans-serif;
+    --text-font-family: 'Gothic A1', sans-serif;
+    --logo-font-family: 'Poppins', sans-serif;
+
+    /* *font-size-size  */
+
+    --font-size-size-xl: 3rem ;
+    --font-size-size-l : 2rem;
+    --font-size-size-m : 1.2rem;
+    --font-size-size-s : 1rem;
+
+    /* *Button */
+    
+
+   
+
+    /* *Margins */
+
+    --margin-size-xl : 3rem;
+    --margin-size-l : 2rem ;
+    --margin-size-m : 1rem ;
+    --margin-size-s : .8rem ;
+
+    /* *Padding */
+
+    --padding-size-xl : 3rem;
+    --padding-size-l : 2rem ;
+    --padding-size-m : 1rem ;
+    --padding-size-s : .8rem ;
+
 }
     
