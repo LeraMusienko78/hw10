@@ -1,16 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gothic+A1:wght@300&family=Poppins:wght@700&display=swap');
+
 :root {
 
     /* *Color-text */
 
     --primary-color : ;
-    --secondary-color: ;
+    --secondary-color: #925FF0;
     --additional-color: ;
     --spare-color: ;
 
    /* * Background*/
 
     --primary-bg : #F4EFFD ;
-    --secondary-bg: ;
+    --secondary-bg: #FFFFFF;
     --additional-bg: ;
     --spare-bg: ;
 
@@ -28,7 +30,7 @@
     --font-size-size-s : 1rem;
 
     /* *Button */
-    
+
 
    
 
@@ -40,7 +42,8 @@
     --margin-size-s : .8rem ;
 
     /* *Padding */
-
+    
+    --padding-size-xxl:3.5rem;
     --padding-size-xl : 3rem;
     --padding-size-l : 2rem ;
     --padding-size-m : 1rem ;
